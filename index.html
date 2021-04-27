@@ -173,6 +173,7 @@
                 }
                 if (score >= 150) {
                     life = 10;
+                    document.getElementById('life').innerHTML = "life:" + life;
                     bossone.show();
                     bossone.move();
                     smallenemy.stop();
