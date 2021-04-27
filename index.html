@@ -168,12 +168,13 @@
                     bossatk.atk1();
                 }
                 if (score == 50) {
-                    life = 5;
+                   life = 5;;
+                    document.getElementById('life').innerHTML = "life:" + life;
+                } if (score == 140) {
+                   life = 10;;
                     document.getElementById('life').innerHTML = "life:" + life;
                 }
                 if (score >= 150) {
-                    life = 10;
-                    document.getElementById('life').innerHTML = "life:" + life;
                     bossone.show();
                     bossone.move();
                     smallenemy.stop();
