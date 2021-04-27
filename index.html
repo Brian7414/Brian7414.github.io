@@ -18,7 +18,7 @@
 
         h1 {
             font-family: 'VT323', monospace;
-            margin-left: 400px;
+            margin-left: 200px;
             font-size: 80;
         }
     </style>
@@ -172,6 +172,7 @@
                     document.getElementById('life').innerHTML = "life:" + life;
                 }
                 if (score >= 150) {
+                    life = 10;
                     bossone.show();
                     bossone.move();
                     smallenemy.stop();
