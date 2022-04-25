@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300&family=Caveat:wght@600&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>PhotoEssay</title>
+    <style>
+        body {
+            background: linear-gradient(90deg, rgba(234, 233, 255, 1) 0%, rgba(252, 167, 213, 1) 35%, rgba(194, 245, 255, 1) 100%);
+        }
+
+        a {
+            color: hotpink;
+            text-decoration: none;
+        }
+
+        #title {
+            font-family: 'Anek Telugu', sans-serif;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 10%;
+            background: linear-gradient(90deg, rgba(234, 233, 255, 1) 0%, rgba(252, 167, 213, 1) 35%, rgba(194, 245, 255, 1) 100%);
+        }
+
+        span {
+            position: absolute;
+            top: 50%;
+            font-family: 'Anek Telugu', sans-serif;
+        }
+
+        .layout {
+            position: absolute;
+            top: 0;
+        }
+
+        .StageDivision {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+        }
+
+        .DTitle {
+            text-align: center;
+            font-family: 'Anek Telugu', sans-serif;
+        }
+
+        #StageOne {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 200%;
+            left: 0;
+            background: linear-gradient(#80FFDB, #5390D9);
+        }
+
+        #StageTwo {
+            top: 300%;
+            position: absolute;
+            background: linear-gradient(to top, lime, 20%, cyan);
+        }
+
+        #StageThree {
+            top: 400%;
+            position: absolute;
+            background: radial-gradient(ellipse at right bottom, #EEB1BF 5%, #d42dab 25%, #4d1d63 50%, #030243 100%);
+
+        }
+
+        #StageFour {
+            top: 500%;
+            position: absolute;
+            background: linear-gradient(#fff, #ccc);
+        }
+
+        #StageFive {
+            top: 600%;
+            position: absolute;
+            background-color: linear-gradient(to bottom, #80FFDB, #5390D9);
+        }
+
+        #StageSix {
+            top: 700%;
+            position: absolute;
+            background-color: linear-gradient(yellow, green);
+        }
+
+        #StageSeven {
+            top: 800%;
+            position: absolute;
+            background-image: linear-gradient(to right, lightblue, darkblue);
+        }
+
+        #StageEight {
+            top: 900%;
+            position: absolute;
+            background: linear-gradient(to right, transparent, mistyrose),
+                url("critters.png");
+        }
+
+
+        #StageOnetitle {
+            right: 75%;
+        }
+
+        #StageTwotitle {
+            right: 65%;
+        }
+
+        #StageThreetitle {
+            right: 55%;
+        }
+
+        #StageFourtitle {
+            right: 45%;
+        }
+
+        #StageFivetitle {
+            right: 35%;
+        }
+
+        #StageSixtitle {
+            right: 25%;
+        }
+
+        #StageSeventitle {
+            right: 15%;
+        }
+
+        #StageEighttitle {
+            right: 5%;
+        }
+
+        #meme {
+            position: absolute;
+            top: 30%;
+            right: 10%;
+        }
+
+        #slogan {
+            position: absolute;
+            top: 25%;
+            left: 20%;
+            font-size: 50px;
+            font-family: 'Caveat', cursive;
+        }
+
+        #SOnePic {
+            position: absolute;
+            right: 20%;
+            bottom: 20%;
+        }
+
+        #SOneVideo {
+            position: absolute;
+            left: 20%;
+            bottom: 20%;
+        }
+
+        .des {
+            position: absolute;
+            bottom: 10%;
+            width: 100%;
+            text-align: center;
+            font-family: 'Permanent Marker', cursive;
+        }
+
+        #middlePic {
+            position: absolute;
+            left: 40%;
+            bottom: 20%;
+        }
+
+        #middlePic1 {
+            position: absolute;
+            left: 33%;
+            bottom: 20%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="meme">
+        <img src='https://memegenerator.net/img/instances/74883629.jpg'>
+    </div>
+    <div id="slogan">
+        <p>
+            8 Stages explain
+        </p>
+        <p>
+            who was I
+        </p>
+        <p>and who will I be</p>
+    </div>
+    <div id="title">
+        <h1>
+            The Story of my life
+        </h1>
+        <div class="animated layout" id="StageOnetitle"> <a href="#StageOne">Stage One</a></div>
+        <div class="animated layout" id="StageTwotitle"><a href="#StageTwo">Stage Two</a></div>
+        <div class="animated layout" id="StageThreetitle"><a href="#StageThree">Stage Three</a></div>
+        <div class="animated layout" id="StageFourtitle"><a href="#StageFour">Stage Four</a></div>
+        <div class="animated layout" id="StageFivetitle"><a href="#StageFive">Stage Five</a></div>
+        <div class="animated layout" id="StageSixtitle"><a href="#StageSix">Stage Six</a></div>
+        <div class="animated layout" id="StageSeventitle"><a href="#StageSeven">Stage Seven</a></div>
+        <div class="animated layout" id="StageEighttitle"><a href="#StageEight">Stage Eight</a></div>
+    </div>
+
+    <div class="StageDivision" id="StageOne">
+        <h1 class="DTitle">Stage One Trust v.s Mistrust</h1>
+
+        <div id="SOneVideo" class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <video class="StageOneElement" width="300px" height="400px" controls>
+                        <source src="StageOneVideo.mov" type="video/mp4">
+                    </video>
+                </div>
+                <div class="flip-box-back">
+                    <h2>Yakult</h2>
+                    <p>This video me and my sister were playing with my dad ,and my mom passed by the room; I instantly
+                        ran to my mom and told her I wanted to drink a yogurt drink called yakult.
+                        During this period, I had developed a sense of trust on my mom because I believed he will
+                        actually bring me an Yakult
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="SOnePic" class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img width="300px" height="400px" src=StageOnePic.jpg>
+                </div>
+                <div class="flip-box-back">
+                    <h2>First Photo</h2>
+                    <p>This is the first photo I took after I was borned; this also shows that I have developed a sense
+                        of trust in my parents because I was still smiling even though my parents left for a few
+                        minutes.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="des"> Click and hold the mouse to see the description behind</div>
+    </div>
+    <div class="StageDivision" id="StageTwo">
+        <h1 class="DTitle">Stage Two Autonomy vs. Shame</h1>
+        <div id="SOneVideo" class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img width="300px" height="400px" src=captain.jpg>
+                </div>
+                <div class="flip-box-back">
+                    <h2>Captain</h2>
+                    <p>
+                        My parents always encouraged me to explore different career pathways even though I was too small
+                        to understand each operation. In this picture, I was wearing a pilot suit because my dad was
+                        interested in airplanes and aircraft ,but I wasn’t interested in that career or I just didn’t
+                        know what a pilot is so I gave them an “I feel like I am handsome” facial expression.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="SOnePic" class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img width="300px" height="400px" src=sleep.jpg>
+                </div>
+                <div class="flip-box-back">
+                    <h2>Fall asleep</h2>
+                    <p> This is a continuation of what was happening in the picture on the left-hand side; my parents
+                        brought me to an airplane exhibition ,and we could actually experience what was the feeling on
+                        an airplane; however, it was too boring so I fell asleep.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="des"> Click and hold the mouse to see the description behind</div>
+    </div>
+    <div class="StageDivision" id="StageThree">
+        <h1 class="DTitle">Stage Three Initiative vs. Guilt</h1>
+        <div id="SOneVideo" class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img width="450px" height="400px" src=friends.jpg>
+                </div>
+                <div class="flip-box-back">
+                    <h2>Friends</h2>
+                    <p>
+                        This picture shows my intuitive because I am pretty much playing with my friends everyday ,and
+                        because I am the tallest in the friend group I am usually the leader of our groups
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="SOnePic" class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img width="450px" height="400px" src=scold.jpg>
+                </div>
+                <div class="flip-box-back">
+                    <h2>Getting Scold</h2>
+                    <p> I use this picture to represent guilt because I get scolded before I take that picture;my dad
+                        scolds me for asking inappropriate questions; at the same time, we are still on our trip ,so I'm
+                        still taking pictures with my guilty face.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="des"> Click and hold the mouse to see the description behind</div>
+    </div>
+    <div class="StageDivision" id="StageFour">
+        <h1 class="DTitle">Stage Four Industry vs. Inferiority</h1>
+        <div id="SOneVideo" class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img width="300px" height="400px" src=bicycle.jpg>
+                </div>
+                <div class="flip-box-back">
+                    <h2>Bicycle</h2>
+                    <p>
+                        This picture is about me and my whole class having a small bicycle challenge. We are trying to
+                        ride around a large lake. I use this picture to show that my initiative became my motivation to
+                        finish this bicycle challenge. Also, I developed the ability of being persistent during this
+                        challenge.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="SOnePic" class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img width="300px" height="400px" src=graduation.jpg>
+                </div>
+                <div class="flip-box-back">
+                    <h2>Graduation Ceremony</h2>
+                    <p> I think this is the best picture to represent this stage. This picture was taken at my
+                        elementary school graduation ceremony ,and the floor was given by my elementary teacher. She
+                        gave me the floor as an appreciation of my dedication to the class. I was so encouraged and so
+                        happy.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="des"> Click and hold the mouse to see the description behind</div>
+    </div>
+
+    <div class="StageDivision" id="StageFive">
+        <h1 class="DTitle">Stage Five Identity vs. Role Confusion</h1>
+        <div id="SOneVideo" class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img width="300px" height="400px" src=birthday.jpg>
+                </div>
+                <div class="flip-box-back">
+                    <h2>Birthday</h2>
+                    <p>
+                        This is my 14th birthday ,and after this day I will graduate from middle school. I am having a
+                        role confusion during this period because I don’t know where I should go for high school.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="SOnePic" class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img width="300px" height="400px" src=middle.jpg>
+                </div>
+                <div class="flip-box-back">
+                    <h2>Middle School graduation</h2>
+                    <p> This was the middle school graduation; I was taking pictures with friends, parents, and
+                        teachers. The person on the right was my mom;I was still having role confusion because my
+                        parents told me that we were about to immigrate to Hawaii which made me even more unsure about
+                        my future…..
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="des"> Click and hold the mouse to see the description behind</div>
+
+    </div>
+    <div class="StageDivision" id="StageSix">
+        <h1 class="DTitle">StageSix Intimacy vs. Isolation</h1>
+        <div id="middlePic" class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img width="300px" height="400px" src=family.jpg>
+                </div>
+                <div class="flip-box-back">
+                    <h2>Family</h2>
+                    <p>
+                        From this stage, I should predict what I am going to look at in the future ,or what I want to
+                        look like in the future. This picture is of my family; I am looking forward to having a
+                        relationship just like my mom and dad; they were married 30 years ago, which I consider very
+                        early. Therefore, I am also looking forward to marrying someone before 30 years and having one
+                        or two children.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="des"> Click and hold the mouse to see the description behind</div>
+    </div>
+    <div class="StageDivision" id="StageSeven">
+        <h1 class="DTitle">Stage Seven Generativity vs. Stagnation</h1>
+        <div id="middlePic" class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img width="300px" height="400px" src=grandpa.jpg>
+                </div>
+                <div class="flip-box-back">
+                    <h2>Grandpa</h2>
+                    <p>
+                        The person on the right in the picture is my grandfather; I consider him as the most successful
+                        person in this stage. He is the reason why Shu family is existing; my grandma always tells me
+                        that grandpa never gets second place; no matter how hard the task is, he always finishes it
+                        ahead of everyone. If I ever have a choice, I want to be my grandpa in the future. (my parents
+                        and grandma actually say that I look like my grandpa)
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="des"> Click and hold the mouse to see the description behind</div>
+    </div>
+    </div>
+    <div class="StageDivision" id="StageEight">
+        <h1 class="DTitle">Stage Eight Ego Integrity vs. Despair</h1>
+        <div id="middlePic1" class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img width="500px" height="400px" src=LAST.jpg>
+                </div>
+                <div class="flip-box-back">
+                    <h2>LAST ONE</h2>
+                    <p>
+                        I found this picture on the internet. During this stage, I have nothing to pursue or complain;
+                        the only thing I wish I can still do is laugh, just like that old guy in the picture. I hope
+                        during that stage I can understand the real meaning of life ,and become a wise old man who can
+                        pass knowledge to young people.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="des"> Click and hold the mouse to see the description behind</div>
+    </div>
+
+</body>
+
+</html>
