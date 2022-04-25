@@ -1,0 +1,91 @@
+<html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stage One</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Updock&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script defer src="script.js"></script>
+    <style>
+        body {
+            background: black no-repeat fixed center;
+            background-size: cover;
+        }
+
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        #bgimage {
+            z-index: -1;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            filter: blur(5px);
+            width: 100%;
+            height: 100%;
+
+            background: url("https://www.ucsf.edu/sites/default/files/2021-12/New_Parnassus_Hospital_rendering_from_Hillway_social_card.jpg") no-repeat fixed center;
+        }
+
+        #begin {
+            z-index: 1;
+            font-size: 20px;
+            font-family: 'Inter', sans-serif;
+            text-align: center;
+        }
+
+        #parent {
+            visibility: hidden;
+            z-index: 1;
+            width: 50px;
+            height: 50px;
+            background: url("https://media.wired.com/photos/598e35fb99d76447c4eb1f28/16:9/w_2123,h_1194,c_limit/phonepicutres-TA.jpg");
+        }
+
+        #Nurse {
+            visibility: hidden;
+            z-index: 1;
+            width: 352px;
+            height: 400px;
+            background-image: url("https://1.bp.blogspot.com/-SCwRA20jwKM/UlX5AxPVsQI/AAAAAAAAY74/nu3pNIyzau0/s400/nurse_cap.png");
+        }
+
+        #DiologBox {
+            visibility: hidden;
+            z-index: 1;
+            width: 544px;
+            height: 128px;
+            background-image: url("DiologBox.png");
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="bgimage"></div>
+
+    <div class="fade-in-text" id="begin">
+        <h1>November 26, 2003 9:15am</h1>
+    </div>
+    <div id="parent">
+
+    </div>
+    <div id="Nurse"></div>
+    <div id="DiologBox"></div>
+
+</body>
+
+</html>

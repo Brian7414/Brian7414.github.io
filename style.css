@@ -1,0 +1,19 @@
+.fade-in-text {
+
+    animation: fadeInOut 5s ease;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+@keyframes fadeInOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
